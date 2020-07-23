@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    font-size: 10px;
+    --greyBlue: #E6EFF5;
+    --grey: hsl(218, 21.7%, 67.5%);
+    --white: #fff;
+    --greenBlue: hsl(179, 62%, 43.3%);
+    --yellowGreen: hsl(71, 72.9%, 53.7%);
+}
+
+*, *::before, *::after {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    z-index: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: var(--greyBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: var(--white);
+    width: 640px;
+    height: 475px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px 0 hsla(212, 100%, 33.5%, 0.15);
+}
+
+section {
+    padding: 4rem;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    padding-bottom: 2.4rem;
+    font-size: 1.8rem;
+}
+
+h1 {
+    color: var(--greenBlue);
+    font-size: 2.4rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.top {
+    width: 100%;
+}
+
+.top h2 {
+    color: var(--yellowGreen);
+}
+
+.top p {
+    color: var(--grey);
+}
+
+.bottom {
+    display: flex;
+    background-color: var(--greenBlue);
+    color: var(--white);
+    border-radius: 0 0 8px 8px;
+}
+
+.second-child {
+    width: 50%;
+    border-radius: 0 0 0 8px;
+}
+
+
+
+.price-container {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+
+.per-month {
+    padding-left: 1.2rem;
+    opacity: 50%;
+}
+
+button {
+    width: 237px;
+    height: 48px;
+    margin-top: 2.6rem;
+    background-color: var(--yellowGreen);
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 10 10 0 hsla(0, 0%, 0%, 0.1);
+}
+
+.third-child {
+    background-color: #49BFBD;
+    width: 50%;
+    border-radius: 0 0 8px 0;
+}
+
+.third-child li{
+    font-size: 1.4rem;
+    opacity: 75%;
+    line-height: 1.4;
+}
